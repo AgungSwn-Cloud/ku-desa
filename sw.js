@@ -1,6 +1,6 @@
 // Service worker sederhana: menyimpan "bingkai" aplikasi agar cepat terbuka & bisa dipasang di HP.
 // Data aplikasi tetap diambil langsung dari Google Apps Script (tidak di-cache).
-const CACHE = 'keuangan-desa-v3';
+const CACHE = 'keuangan-desa-v4';
 const FILES = ['./', './index.html', './manifest.json', './icon-192.png', './icon-512.png'];
 
 self.addEventListener('install', e => {
